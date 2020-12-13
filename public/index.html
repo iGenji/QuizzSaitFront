@@ -1,0 +1,121 @@
+<!-- The skeleton of this page was generated through the bootstrap Extension / "b4-$" Snippet -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Own styelsheet to deal with the validation constraint styles -->
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+      </style> 
+  </head>
+
+  <!-- Viewport height of 100% -->
+  <body>
+    <!-- Use of bootstrap to get a responsive design : container-fluid for a full width
+    h-100 for a full height element  
+    d-flex to create a flexbox container and transform direct children elements into flex items 
+    flex-column to set a vertical direction-->
+    <div class="container-fluid h-100 d-flex flex-column">
+      <!-- Header row : dark background, white text -->
+      <div class="row bg-dark py-2">
+        <div class="col">
+          <header class="text-center text-white font-weight-bold">
+            <h4 id="headerTitle"></h4>
+          </header>
+        </div>
+      </div>
+
+      <!-- Page content row. 
+        flex-grow-1: Fill available space 
+        mb-5 : to ensure that we see all of the content of the page row -->
+      <div class="row flex-grow-1 mb-5" id="allpage">
+        <div class="d-none d-md-block col-md bg-dark"></div>
+        <div class="col col-md-10 mt-2" id="allpage">
+          <div id="navBar"></div>
+          <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2" id="navBar">
+            <a class="navbar-brand" href="/">MyCMS</a
+            ><button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Register</a>
+                <a class="nav-item nav-link" href="#">Login</a>
+                <a class="nav-item nav-link" href="#">Logout</a>
+                <a class="nav-item nav-link" href="#">List</a>
+              </div>
+            </div>
+          </nav> -->
+          
+         
+
+          <div id="page_home" class="full-size"></div>
+         
+          <div id="page"></div>
+        </div>
+        <div class="d-none d-md-block col-md bg-dark"></div>
+      </div>
+      <!-- Footer row -->
+      <div class="row bg-dark fixed-bottom">
+        <div class="col">
+          <footer class="py-2 text-center text-white font-weight-bold">
+            <h5 id="footerText"></h5>
+          </footer>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./index.js" type="module"></script>
+    <!-- type="module" is mandatory to use client side modules -->
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
